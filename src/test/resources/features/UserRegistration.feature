@@ -77,7 +77,7 @@ Feature: Registration functionality
     Then User clicks on Confirm Password field and types users password "Password123!"
     Then User clicks on the "Next" button
     Then Verify error message: "Please match the requested format." is displayed
-  6:32
+
   Scenario: User Registration 6 (Negative Test) Verify Email Address error message
 
     When User clicks on title drop down and choose "Ms."

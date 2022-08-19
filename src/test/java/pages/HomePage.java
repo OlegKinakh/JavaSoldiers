@@ -17,7 +17,7 @@ public class HomePage extends OpenWebsite{
     WebElement icon;
     @FindBy(xpath ="//div[@class='user-menu dropdown-menu show']//a")
     WebElement logoutButton;
- @FindBy(xpath ="//*[@class='sufee-alert alert with-close alert-success alert-dismissible fade show']\n")
+    @FindBy(xpath ="//*[@class='sufee-alert alert with-close alert-success alert-dismissible fade show']\n")
     WebElement logoutMessage;
 
 
